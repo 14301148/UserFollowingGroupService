@@ -42,7 +42,7 @@ public class UserFollowingGroupServiceImpl implements UserFollowingGroupService 
 		List<String> list =null;
 		@Autowired
 		UserDao userdao=new UserDao();
-		list=getUsersByGroup(String userId,groupId,  pageIndex,  pagePerNumber);
+		list=getUsersByGroup(userId,groupId,  pageIndex,  pagePerNumber);
 		return list;
 	}
 
